@@ -1,0 +1,32 @@
+XXkb.mainwindow.enable: no
+
+! possible values - normal, top, tray, wmaker
+XXkb.mainwindow.type: normal
+
+XXkb.mainwindow.geometry: 15x15+0+0
+
+XXkb.controls.add_when_create: yes
+
+XXkb.controls.add_when_change: yes
+
+XXkb.button.enable: no
+
+XXkb.button.geometry: 15x15-90+5
+
+XXkb.controls.button_delete: yes
+
+XXkb.controls.button_delete_and_forget: yes
+
+XXkb.controls.mainwindow_delete: yes
+
+XXkb.bell.enable: no
+
+XXkb.controls.add_when_change: yes
+XXkb.controls.focusout: yes
+
+! XXkb.xpm.path: /usr/share/xxkb/
+! XXkb.button.xpm.1: ru15.xpm
+! XXkb.mainwindow.xpm.1: ru15.xpm
+! XXkb.button.xpm.2: en15.xpm
+! XXkb.mainwindow.xpm.2: en15.xpm
+

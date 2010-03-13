@@ -1,0 +1,53 @@
+"sudo chvt 1"
+    Alt + F1
+"sudo chvt 2"
+    Alt + F2
+"sudo chvt 3"
+    Alt + F3
+"sudo chvt 4"
+    Alt + F4
+"sudo chvt 5"
+    Alt + F5
+"sudo chvt 6"
+    Alt + F6
+"sudo chvt 7"
+    Alt + F7
+
+"amixer -c 0 set Master 7%+"
+    Alt + 0
+
+"amixer -c 0 set Master 7%-"
+    Alt + 9
+
+"amixer -c 0 set Master 3%+"
+    Control + Shift + Up
+
+"amixer -c 0 set Master 3%-"
+    Control + Shift + Down
+
+"xautolock -locknow"
+    Control + Alt + Shift + L
+
+"cmus-remote -p"
+    Control + Alt + x
+"cmus-remote -s"
+    Control + Alt + v 
+"cmus-remote -r"
+    Control + Alt + z  
+"cmus-remote -n"
+    Control + Alt + b   
+"cmus-remote -u"
+    Control + Alt + c    
+"cmus-remote -v +10"
+    Control + Alt + 0     
+"cmus-remote -v -10"
+    Control + Alt + 9     
+
+#"evilvte"
+#    Hyper_L + Shift + Return
+#
+#"exe=`dmenu_path | dmenu` && eval \"exec $exe\""
+#    Hyper_L + P
+#
+#"xmonad --recompile; xmonad --restart"
+#    Hyper_L + Q

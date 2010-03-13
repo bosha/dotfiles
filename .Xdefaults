@@ -1,0 +1,109 @@
+Xcursor*theme:   jaguarx_twirly
+
+! XFONT SETTINGS
+
+!Xft.dpi:        96
+!Xft.antialias:  false
+!Xft.rgba:       rgb
+!Xft.hinting:    false
+!Xft.hintstyle:  hintslight
+
+! URXVT SETTINGS
+
+urxvt.scrollBar: false
+urxvt.cursorColor2: #000000
+! URxvt*font:   xft:Terminus:size=9
+!!!URxvt*font:    xft:DeJaVu Sans Mono:style=Regular:size=9
+URxvt*font:     xft:Monaco:size=8:style=Regular
+! URxvt.font:   xft:Liberation Mono:pixelsize=12:style=Regular
+! URxvt*font:   xft:DejaVu Sans Mono:size=9
+! URxvt*font:   xft:Droid Sans Mono:size=9:style=Regular
+urxvt*background: #212121
+URxvt*background: [50]#000000
+urxvt*foreground: #b8b8b8
+urxvt*loginShell: true
+urxvt*saveLines: 2000
+urxvt*urlLauncher:        /usr/bin/firefox
+urxvt*boldMode: false
+!URxvt*inheritPixmap: true
+!URxvt.transparent: true
+URxvt*borderLess: false
+
+! teh transparency stuff
+! Rxvt.buffered:                         true
+! URxvt.background:                       black
+! URxvt.foreground:                       #E3E3E3
+! URxvt.cursorColor:                      #CCCCCC
+! URxvt.transparent:                      0
+! URxvt*inheritPixmap:                    true
+! URxvt*tintColor:                        white
+! URxvt*shading:                          15
+
+
+URxvt.perl-ext-common:  default,matcher
+URxvt.urlLauncher:	firefox
+URxvt.matcher.button:	1
+URxvt.colorUL: 		#86a2be
+
+URxvt.perl-lib: /home/bosha/bin/
+URxvt.perl-ext: mark-yank-urls
+URxvt.keysym.C-i: perl:mark-yank-urls:activate_mark_mode
+!URxvt.matcher.rend.0: fgX
+!URxvt.urlLauncher: urlopen
+
+!
+URxvt*scrollTtyOutput: False
+URxvt*scrollWithBuffer: True
+URxvt*skipScroll: False
+
+! Tkabber font
+! Tkabber*font: DejaVuSans 12
+
+! {{{ ----- Yeahconsole settings
+yeahconsole*term:               urxvt
+yeahconsole*background:         #212121
+yeahconsole*foreground:         #b8b8b8
+yeahconsole*screenWidth:        1680
+yeahconsole*aniDelay:           1
+yeahconsole*toggleKey:          None+F12
+yeahconsole*font:               xft:Monaco:size=8:style=Regular
+yeahconsole*boldFont:               xft:Monaco:size=8:style=Regular
+! yeahconsole*boldFont:   xft:Droid Sans Mono:size=9:style=Regular
+yeahconsole.scrollBar: false
+yeahconsole.cursorColor2: #000000
+yeahconsole*consoleHeight:45
+yeahconsole*stepSize: 0
+yeahconsole*xOffset: 0
+yeahconsole*perl-ext: tabbed
+yeahconsole.tabbed.tabbar-fg: 2
+yeahconsole.tabbed.tabbar-bg: 0
+yeahconsole.tabbed.tab-fg:    3
+yeahconsole.tabbed.tab-bg:    0
+! ----- }}}
+
+! jwr low contrast
+!black
+*color0: #222222
+*color8: #454545
+
+!red
+*color1: #9E5641
+*color9: #CC896D
+!green
+*color2: #6C7E55
+*color10: #7DB37D
+!yellow
+*color3: #CAAF2B
+*color11: #BFB556
+!blue
+*color4: #7C9AA6
+*color12: #8FADBF
+!magenta
+*color5: #956D9D
+*color13: #C18FCB
+!cyan
+*color6: #4c8ea1
+*color14: #6bc1d0
+!white
+*color7: #808080
+*color15: #cdcdcd
