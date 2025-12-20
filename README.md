@@ -8,4 +8,5 @@ I use MacOS, so the configuration may not be compatible with Linux.
 
 | Filename | Description |
 | --- | --- |
-| .wezterm.lua | Small wezterm configuration with automatic light\dark theme switching based on the current macos theme.  |
+| `.wezterm.lua` | Small wezterm configuration with automatic light\dark theme switching based on the current macos theme.  |
+| `.config/yazi` (directory) | Yazi configuration files. Run `ya pkg install` after clonning the repository.  |
